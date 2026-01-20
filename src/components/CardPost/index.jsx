@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { Avatar } from "../Avatar"
 
 export const CardPost = ({ post }) => {
   return(
@@ -14,7 +15,9 @@ export const CardPost = ({ post }) => {
         texto
       </section>
 
-      <footer></footer>
+      <footer>
+        <Avatar />
+      </footer>
     </article>
   )
 }
