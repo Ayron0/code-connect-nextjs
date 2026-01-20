@@ -1,3 +1,5 @@
+import { CardPost } from "../components/CardPost";
+
 const post = {
   id: 1,
   cover:
@@ -16,5 +18,7 @@ const post = {
   },
 };
 export default function Home() {
-  return <main>Olá Mundo</main>;
+  return <main>
+    <CardPost post={post} />
+  </main>;
 }
