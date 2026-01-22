@@ -1,0 +1,8 @@
+
+.grid {
+    display: flex;
+    gap: 24px;
+    /* O flex-wrap faz com que os itens sejam empilhados quando não há espaço suficiente */
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
